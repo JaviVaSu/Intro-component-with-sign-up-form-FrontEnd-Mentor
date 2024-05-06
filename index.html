@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./estilos/styles.css">
+
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+
+<body>
+  <main>
+
+    <section class="contenedor">
+
+      <div class="top">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+
+      <div class="bottom">
+
+        <div class="destacado sombra">
+          <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+        </div>
+
+        <div class="div-formulario">
+          <form action="" class="formulario sombra">
+
+            <input type="text" name="" id="first-name" placeholder="First Name">
+            <div>
+              <img src="./images/icon-error.svg" alt="" width="8%" class="ocultar" id="imagen1">
+              <p class="mensaje-error ocultar" id="error1">First Name cannot be empty</p>
+            </div>
+            
+            <input type="text" name="" id="last-name" placeholder="Last Name">
+            <div>
+              <img src="./images/icon-error.svg" alt="" width="8%" class="ocultar" id="imagen2">
+              <p class="mensaje-error ocultar" id="error2">Last Name cannot be empty</p>
+            </div>
+            
+            <input type="email" id="email" placeholder="Email Address">
+            <div>
+              <img src="./images/icon-error.svg" alt="" width="8%" class="ocultar" id="imagen3">
+              <p class="mensaje-error ocultar" id="error3">Looks like this is not an email</p>
+            </div>
+            
+            <input type="password" name="" id="password" placeholder="Password">
+            <div>
+              <img src="./images/icon-error.svg" alt="" width="8%" class="ocultar" id="imagen4">
+              <p class="mensaje-error ocultar" id="error4">Password cannot be empty</p>
+            </div>
+
+            <a class="sombra" id="boton">Claim your free trial</a>
+
+            <p class="terminos">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  
+</body>
+</html>
